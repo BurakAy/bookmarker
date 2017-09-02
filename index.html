@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site Bookmarker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body onload="fetchBookmarks()">
+    <div id="wrapper">
+        <header>
+            <h3>Site Bookmarker</h3>
+        </header>
+        <section id="infoentry">
+            <h2>Bookmark A Site</h2>
+            <form id="submitform">
+                <label for="sitename">Site Name</label>
+                <input type="text" name="sitename" id="sitename" placeholder="Site Name">
+                <label for="siteurl">Site URL</label>
+                <input type="url" name="siteurl" id="siteurl" placeholder="Site URL">
+                <button type="submit" id="submitbutton">Submit</button>
+            </form>
+        </section>
+        <section id="bookmarks">
+
+        </section>
+        <footer><a href="http://www.burakaydemir.com" target="_blank">burak aydemir</a></footer>
+    </div>
+
+    
+
+    <script src="functionality.js"></script>
+</body>
+
+</html>
