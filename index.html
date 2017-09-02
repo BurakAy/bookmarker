@@ -14,16 +14,16 @@
 <body onload="fetchBookmarks()">
     <div id="wrapper">
         <header>
-            <h3>Site Bookmarker</h3>
+            <h3><i class="fa fa-bookmark-o" aria-hidden="true"></i>&nbsp;&nbsp;Site Bookmarker</h3>
         </header>
         <section id="infoentry">
-            <h2>Bookmark A Site</h2>
+            <h1>Bookmark A Site</h1>
             <form id="submitform">
-                <label for="sitename">Site Name</label>
+                <!-- <label for="sitename">Site Name</label> -->
                 <input type="text" name="sitename" id="sitename" placeholder="Site Name">
-                <label for="siteurl">Site URL</label>
+                <!-- <label for="siteurl">Site URL</label> -->
                 <input type="url" name="siteurl" id="siteurl" placeholder="Site URL">
-                <button type="submit" id="submitbutton">Submit</button>
+                <button type="submit" id="submitbutton"><i class="fa fa-star-o" aria-hidden="true"></i></button>
             </form>
         </section>
         <section id="bookmarks">
@@ -31,9 +31,6 @@
         </section>
         <footer><a href="http://www.burakaydemir.com" target="_blank">burak aydemir</a></footer>
     </div>
-
-    
-
     <script src="functionality.js"></script>
 </body>
 
